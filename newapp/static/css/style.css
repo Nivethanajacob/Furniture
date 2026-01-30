@@ -1,0 +1,205 @@
+/* Navbar base */
+.navbar {
+  padding: 0.8rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Brand styling */
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+}
+
+/* Nav links */
+.navbar-nav .nav-link {
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+  color: #198754; /* Bootstrap success color */
+}
+
+/* Active link */
+.navbar-nav .nav-link.active {
+  color: #198754;
+}
+
+/* Call Now button */
+.navbar .btn-success {
+  padding: 0.45rem 1.2rem;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* Call Now hover */
+.navbar .btn-success:hover {
+  background-color: #157347;
+  transform: translateY(-1px);
+}
+
+/* Mobile spacing */
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 0.5rem;
+  }
+
+  .navbar .btn-success {
+    width: 100%;
+  }
+}
+ 
+.hero-section {
+  padding-top: 80px; /* Adjust to navbar height */
+}
+.navbar.fixed-top {
+  z-index: 1030; /* Bootstrap default for fixed-top */
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 80px 0;
+  margin: 50px 20px; /* top-bottom 50px, left-right 20px */
+ 
+}
+
+/* Contact Title */
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+/* Contact Info Card */
+.contact-info {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 20px; /* space below on smaller screens */
+}
+
+.contact-info h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Contact Form Card */
+.contact-form {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* Submit Button */
+.btn-submit {
+  background-color: #198754;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-submit:hover {
+  background-color: #157347;
+  color: #fff;
+}
+
+/* Services Section */
+.services-section {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* soft elegant gradient */
+    padding: 60px 20px; /* top/bottom and sides */
+    margin: 50px auto; /* centers the section */
+    border-radius: 15px; /* optional: slightly rounded edges for elegance */
+}
+
+/* Service Card */
+.service-card {
+    background-color: #ffffff; /* white cards stand out on elegant bg */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    padding: 30px 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Service Icon */
+.service-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+/* Service Title */
+.service-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Service Description */
+.service-desc {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Button inside card */
+.service-card .btn {
+    align-self: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .services-section {
+        padding: 40px 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-card {
+        margin-bottom: 20px;
+    }
+}
+* About Section */
+.about-section { background-color: #f8f9fa; padding: 60px 20px; }
+.section-title { font-size: 2.5rem; font-weight: 700; margin-bottom: 30px; text-align: center; }
+
+#contact{
+    background-image: url('../image/fur.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;  
+}

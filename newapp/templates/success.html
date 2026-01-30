@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order Successful</title>
+<style>
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#e9f7ef;
+}
+.box{
+  background:white;
+  padding:40px;
+  border-radius:12px;
+  text-align:center;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+a{
+  display:inline-block;
+  margin-top:20px;
+  background:#198754;
+  color:white;
+  padding:10px 20px;
+  text-decoration:none;
+  border-radius:6px;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+<h1>✅ Order Successful</h1>
+<p>Your furniture order has been placed.</p>
+<a href="{% url 'form' %}">Place Another Order</a>
+</div>
+
+</body>
+</html>
